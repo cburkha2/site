@@ -1,1 +1,1 @@
-# site
+This is the source code for my website. This is an ongoing project. 
