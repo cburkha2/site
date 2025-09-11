@@ -22,31 +22,31 @@ body {
 
 .body .nav {
     display: flex;
-    width: 192px;
+    min-width: 144px;
     background-color: lightblue;
     justify-content: center;
     margin: 16px;
     padding: 8px;
 }
 
-.body .nav ul {
+.body .nav .menu {
     display: flex;
     flex-direction: column;
-    align-items: center;
     list-style-type: none;
-    margin: 8px;
+    margin: 0;
     padding: 0;
-    text-align: center;
-    font-weight: bold;
 }
 
-.body .nav ul li {
+.body .nav .menu .pagelink {
     display: flex;
-    margin: 8px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: large;
 }
 
 .body .content {
     margin-right: 12px;
+    justify-content: center;
 }
 
 .tail {
